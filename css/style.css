@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1160px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.site-header {
+    padding: 24px 0px;
+}
+
+.header-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo svg{
+    color: #222222;
+    display: block;
+    transition: color 0.3s ease,
+                opacity 0.3s ease;
+}
+
+.logo svg:hover {
+    color: #DE2E54;
+}
+
+.logo svg:active {
+    opacity: 0.6;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 32px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    transition: color 0.3s ease,
+                opacity 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #DE2E54;
+}
+
+.nav-link:active {
+    opacity: 0.6;
+}
+
+.link-btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    color: #FFFFFF;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    transition: color 0.3s ease,
+                opacity 0.3s ease,
+                background-color 0.3s ease;
+}
+
+.header-btn:hover {
+    background-color: #FFFFFF;
+    color: #DE2E54;
+}
+
+.header-btn:active {
+    background-color: #DE2E54;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+/* SITE HERO SECTION */
+
+.site-hero-section {
+    background-color: #0EB4C1;
+    color: #FFFFFF;
+    padding: 80px 0px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    width: 500px;
+}
+
+.hero-heading {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    margin-bottom: 48px;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.hero-img {
+    width: 420px;
+    height: 500px;
+}
+
+.main-btn:hover {
+    opacity: 0.8;
+}
+
+.main-btn:active {
+    opacity: 0.6;
+}
+
+/* SITE SERVISES SECTION */
+.site-servises-section {
+    padding: 120px;
+}
+
+.servis-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.servises-list-wrapper {
+    width: 864px;
+    margin: auto;
+    text-align: center;
+}
+
+.servises-list {
+    margin: auto;
+    text-align: left;
+}
+
+.servise-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.servise-item img {
+    width: 200px;
+    height: 200px;
+    margin-right: 60px;
+    border-radius: 24px;
+    object-fit: none;
+}
+
+.item-heading {
+    margin-bottom: 24px;
+}
+
+.item-info {
+    letter-spacing: 0px;
+    color: #444444;
+}
+
+.footer-top {
+    background-color: #0EB4C1;
+    padding: 120px 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-top-heading {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.footer-btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-right: 32px;
+    transition: color 0.3s ease,
+                background-color 0.3s ease,
+                border-color 0.3s ease;
+
+}
+
+.footer-btn:last-child {
+    margin-right: 0px;
+}
+
+.footer-btn:hover {
+    background-color: #DE2E54;
+    color: #FFFFFF;
+    border-color: #DE2E54;
+}
+
+.footer-btn:active {
+    opacity: 0.6;
+}
+
+.footer-bottom {
+    background-color: #222222;
+    padding: 24px 0px;
+}
+
+.footer-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav-item {
+    margin-right: 32px;
+}
+
+.footer-nav-item:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s ease,
+                opacity 0.3s ease;
+}
+
+.footer-nav-link:active {
+    opacity: 0.6;
+}
+
+.footer-nav-link:hover {
+    color: #DE2E54;
+}
+
+.footer-logo svg{
+    color: #FFFFFF;
+    display: block;
+    transition: color 0.3s ease,
+                opacity 0.3s ease;
+}
+
+.footer-logo svg:hover {
+    color: #DE2E54;
+}
+
+.footer-logo svg:active {
+    opacity: 0.6;
+}
